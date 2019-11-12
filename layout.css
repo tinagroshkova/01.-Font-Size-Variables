@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body, form, input, button, select, option {
+    font: inherit;
+}
+
+body {
+    padding-top: 6em;
+    max-width: 45em;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+h1 {
+    text-align: center;
+    font-size: var(--font-size-h1, 30px);
+}
+
+h3 {
+    font-style: italic;
+    padding: 1em 0 1em 0;
+    font-size: var(--font-size-h3, 20px);
+}
+
+p {
+    padding-bottom: 1em;
+    font-size: var(--font-size-p, 16px);
+}
+
